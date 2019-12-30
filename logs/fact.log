@@ -161,3 +161,1086 @@
 10:59:10.794 end [http-nio-8999-exec-1] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:583}] to 111.229.235.55:27017
 10:59:30.811 end [Thread-5] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
 10:59:30.813 end [Thread-5] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:583}] to 111.229.235.55:27017 because the pool has been closed.
+11:12:19.092 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+11:12:24.104 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 29169 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+11:12:24.105 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+11:12:24.165 end [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:12:24.165 end [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:12:24.927 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+11:12:24.955 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19ms. Found 0 MongoDB repository interfaces.
+11:12:25.640 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+11:12:25.653 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+11:12:25.654 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:12:25.654 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:12:25.712 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+11:12:26.136 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[111.229.235.55:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:12:26.137 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 111.229.235.55:27017 to client view of cluster
+11:12:26.429 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:12:26.812 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:12:27.005 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+11:12:27.046 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+11:12:27.050 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 23.652 seconds (JVM running for 24.246)
+11:12:27.336 end [http-nio-8999-exec-1] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:12:27.378 end [cluster-ClusterId{value='5e096b1a1a8131291ac9019d', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:584}] to 111.229.235.55:27017
+11:12:27.685 end [cluster-ClusterId{value='5e096b1a1a8131291ac9019d', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=111.229.235.55:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=303973594}
+11:12:27.686 end [cluster-ClusterId{value='5e096b1a1a8131291ac9019d', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+11:12:44.149 end [http-nio-8999-exec-1] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:585}] to 111.229.235.55:27017
+11:13:34.888 end [Thread-5] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+11:13:34.896 end [Thread-5] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:585}] to 111.229.235.55:27017 because the pool has been closed.
+11:13:51.264 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+11:13:56.269 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 29169 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+11:13:56.269 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+11:13:56.611 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+11:13:56.624 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 MongoDB repository interfaces.
+11:13:56.820 end [restartedMain] WARN  o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+11:13:56.843 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+11:13:56.849 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+11:13:56.850 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:13:56.850 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:13:56.855 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+11:13:56.873 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[111.229.235.55:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:13:56.873 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 111.229.235.55:27017 to client view of cluster
+11:13:56.897 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:13:57.011 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:13:57.081 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+11:13:57.086 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+11:13:57.089 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 20.88 seconds (JVM running for 114.284)
+11:13:57.091 end [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+11:13:57.513 end [http-nio-8999-exec-1] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:13:58.373 end [cluster-ClusterId{value='5e096b741a8131291ac9019e', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:586}] to 111.229.235.55:27017
+11:13:58.523 end [cluster-ClusterId{value='5e096b741a8131291ac9019e', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=111.229.235.55:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=149490487}
+11:13:58.523 end [cluster-ClusterId{value='5e096b741a8131291ac9019e', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+11:14:56.859 end [Thread-9] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+11:15:19.069 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5003 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+11:15:24.075 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 29169 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+11:15:24.075 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+11:15:24.254 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+11:15:24.257 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2ms. Found 0 MongoDB repository interfaces.
+11:15:24.326 end [restartedMain] WARN  o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+11:15:24.346 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+11:15:24.346 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+11:15:24.347 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:15:24.347 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:15:24.351 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+11:15:24.364 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[111.229.235.55:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:15:24.365 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 111.229.235.55:27017 to client view of cluster
+11:15:24.385 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:15:24.450 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:15:24.507 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+11:15:24.519 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+11:15:24.520 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 20.507 seconds (JVM running for 201.715)
+11:15:24.521 end [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+11:15:25.095 end [cluster-ClusterId{value='5e096bcc1a8131291ac9019f', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:587}] to 111.229.235.55:27017
+11:15:25.256 end [cluster-ClusterId{value='5e096bcc1a8131291ac9019f', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=111.229.235.55:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=159970506}
+11:15:25.257 end [cluster-ClusterId{value='5e096bcc1a8131291ac9019f', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+11:15:30.970 end [Thread-14] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+11:15:47.312 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5003 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+11:15:52.316 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 29169 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+11:15:52.316 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+11:15:52.537 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+11:15:52.541 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3ms. Found 0 MongoDB repository interfaces.
+11:15:52.608 end [restartedMain] WARN  o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+11:15:52.628 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+11:15:52.629 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+11:15:52.630 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:15:52.631 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:15:52.638 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+11:15:52.656 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[111.229.235.55:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:15:52.656 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 111.229.235.55:27017 to client view of cluster
+11:15:52.671 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:15:52.727 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:15:52.796 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+11:15:52.805 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+11:15:52.810 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 20.553 seconds (JVM running for 230.005)
+11:15:52.811 end [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+11:15:53.154 end [cluster-ClusterId{value='5e096be81a8131291ac901a0', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:5, serverValue:588}] to 111.229.235.55:27017
+11:15:53.312 end [cluster-ClusterId{value='5e096be81a8131291ac901a0', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=111.229.235.55:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=156766916}
+11:15:53.312 end [cluster-ClusterId{value='5e096be81a8131291ac901a0', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+11:15:59.240 end [Thread-19] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+11:16:15.555 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5001 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+11:16:20.560 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 29169 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+11:16:20.561 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+11:16:20.788 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+11:16:20.791 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2ms. Found 0 MongoDB repository interfaces.
+11:16:20.884 end [restartedMain] WARN  o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+11:16:20.901 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+11:16:20.903 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+11:16:20.903 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:16:20.903 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:16:20.908 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+11:16:20.932 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[111.229.235.55:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:16:20.932 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 111.229.235.55:27017 to client view of cluster
+11:16:20.952 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:16:20.959 end [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tagController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.spider.end.tag.controller.TagController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4cd42b64]
+11:16:20.960 end [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:16:20.967 end [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+11:16:20.971 end [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tagController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.spider.end.tag.controller.TagController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4cd42b64]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1286)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1201)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.spider.end.EndApplication.main(EndApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.spider.end.tag.controller.TagController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4cd42b64]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: ResponseObj
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ResponseObj
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 29 common frames omitted
+11:16:51.533 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5002 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+11:16:56.535 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 29169 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+11:16:56.535 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+11:16:56.711 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+11:16:56.714 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2ms. Found 0 MongoDB repository interfaces.
+11:16:56.780 end [restartedMain] WARN  o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+11:16:56.794 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+11:16:56.796 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+11:16:56.797 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:16:56.797 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:16:56.802 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+11:16:56.821 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[111.229.235.55:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:16:56.821 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 111.229.235.55:27017 to client view of cluster
+11:16:56.841 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:16:56.891 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:16:56.934 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+11:16:56.948 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+11:16:56.949 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 20.463 seconds (JVM running for 294.143)
+11:16:56.953 end [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+11:16:57.568 end [cluster-ClusterId{value='5e096c281a8131291ac901a2', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:7, serverValue:590}] to 111.229.235.55:27017
+11:16:58.070 end [cluster-ClusterId{value='5e096c281a8131291ac901a2', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=111.229.235.55:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=499866103}
+11:16:58.070 end [cluster-ClusterId{value='5e096c281a8131291ac901a2', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+11:17:04.040 end [http-nio-8999-exec-1] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:17:48.221 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5001 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+11:17:53.230 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 29386 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+11:17:53.231 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+11:17:53.272 end [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:17:53.272 end [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:17:53.714 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+11:17:53.733 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 MongoDB repository interfaces.
+11:17:54.152 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+11:17:54.164 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+11:17:54.165 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:17:54.165 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:17:54.224 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+11:17:54.464 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[111.229.235.55:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:17:54.464 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 111.229.235.55:27017 to client view of cluster
+11:17:54.637 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:17:54.968 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:17:55.081 end [cluster-ClusterId{value='5e096c627bd97c75857a7943', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:591}] to 111.229.235.55:27017
+11:17:55.099 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+11:17:55.122 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+11:17:55.127 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 22.298 seconds (JVM running for 22.701)
+11:17:55.782 end [cluster-ClusterId{value='5e096c627bd97c75857a7943', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=111.229.235.55:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=697974364}
+11:17:55.783 end [cluster-ClusterId{value='5e096c627bd97c75857a7943', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+11:17:57.718 end [http-nio-8999-exec-1] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:18:26.024 end [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+11:18:48.334 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+11:18:53.342 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 29444 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+11:18:53.342 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+11:18:53.384 end [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:18:53.384 end [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:18:53.837 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+11:18:53.857 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 MongoDB repository interfaces.
+11:18:54.238 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+11:18:54.243 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+11:18:54.244 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:18:54.244 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:18:54.295 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+11:18:54.530 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[111.229.235.55:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:18:54.530 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 111.229.235.55:27017 to client view of cluster
+11:18:54.697 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:18:54.976 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:18:55.123 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+11:18:55.141 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+11:18:55.144 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 22.272 seconds (JVM running for 22.685)
+11:18:55.688 end [cluster-ClusterId{value='5e096c9e3071b15da275dc91', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:592}] to 111.229.235.55:27017
+11:18:57.529 end [cluster-ClusterId{value='5e096c9e3071b15da275dc91', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=111.229.235.55:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1838934888}
+11:18:57.530 end [cluster-ClusterId{value='5e096c9e3071b15da275dc91', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+11:19:27.347 end [http-nio-8999-exec-1] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:19:42.330 end [http-nio-8999-exec-5] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:593}] to 111.229.235.55:27017
+11:20:01.955 end [Thread-5] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+11:20:01.957 end [Thread-5] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:593}] to 111.229.235.55:27017 because the pool has been closed.
+11:20:18.282 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5002 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+11:20:23.285 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 29444 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+11:20:23.285 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+11:20:23.401 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+11:20:23.403 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2ms. Found 0 MongoDB repository interfaces.
+11:20:23.459 end [restartedMain] WARN  o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+11:20:23.474 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+11:20:23.475 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+11:20:23.475 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:20:23.476 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:20:23.481 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+11:20:23.498 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[111.229.235.55:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:20:23.498 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 111.229.235.55:27017 to client view of cluster
+11:20:23.519 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:20:23.572 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:20:23.610 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+11:20:23.612 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+11:20:23.613 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 20.366 seconds (JVM running for 111.153)
+11:20:23.614 end [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+11:20:24.421 end [cluster-ClusterId{value='5e096cf73071b15da275dc92', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:594}] to 111.229.235.55:27017
+11:20:25.389 end [cluster-ClusterId{value='5e096cf73071b15da275dc92', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=111.229.235.55:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=967184379}
+11:20:25.390 end [cluster-ClusterId{value='5e096cf73071b15da275dc92', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+11:20:33.367 end [http-nio-8999-exec-1] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:20:34.745 end [http-nio-8999-exec-1] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:595}] to 111.229.235.55:27017
+11:21:43.613 end [Thread-9] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+11:21:43.613 end [Thread-9] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:4, serverValue:595}] to 111.229.235.55:27017 because the pool has been closed.
+11:21:59.904 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+11:22:04.912 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 29444 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+11:22:04.912 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+11:22:05.007 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+11:22:05.009 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1ms. Found 0 MongoDB repository interfaces.
+11:22:05.057 end [restartedMain] WARN  o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+11:22:05.075 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+11:22:05.076 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+11:22:05.076 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:22:05.077 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:22:05.081 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+11:22:05.097 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[111.229.235.55:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:22:05.097 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 111.229.235.55:27017 to client view of cluster
+11:22:05.114 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:22:05.164 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:22:05.196 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+11:22:05.198 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+11:22:05.200 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 20.327 seconds (JVM running for 212.739)
+11:22:05.201 end [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+11:22:05.696 end [cluster-ClusterId{value='5e096d5d3071b15da275dc93', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:5, serverValue:596}] to 111.229.235.55:27017
+11:22:06.035 end [cluster-ClusterId{value='5e096d5d3071b15da275dc93', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=111.229.235.55:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=337974379}
+11:22:06.036 end [cluster-ClusterId{value='5e096d5d3071b15da275dc93', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+11:22:52.928 end [Thread-14] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+11:23:09.272 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5002 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+11:23:14.275 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 29444 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+11:23:14.275 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+11:23:14.375 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+11:23:14.377 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1ms. Found 0 MongoDB repository interfaces.
+11:23:14.420 end [restartedMain] WARN  o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+11:23:14.429 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+11:23:14.429 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+11:23:14.429 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:23:14.429 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:23:14.436 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+11:23:14.448 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[111.229.235.55:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:23:14.449 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 111.229.235.55:27017 to client view of cluster
+11:23:14.465 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:23:14.515 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:23:14.562 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+11:23:14.564 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+11:23:14.565 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 20.332 seconds (JVM running for 282.103)
+11:23:14.566 end [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+11:23:15.119 end [cluster-ClusterId{value='5e096da23071b15da275dc94', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:6, serverValue:597}] to 111.229.235.55:27017
+11:23:15.275 end [cluster-ClusterId{value='5e096da23071b15da275dc94', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=111.229.235.55:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=155191142}
+11:23:15.276 end [cluster-ClusterId{value='5e096da23071b15da275dc94', description='null'}-111.229.235.55:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+11:23:15.970 end [Thread-19] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+11:23:32.222 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5003 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+11:23:37.233 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 29444 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+11:23:37.234 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+11:23:37.354 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+11:23:37.356 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1ms. Found 0 MongoDB repository interfaces.
+11:23:37.403 end [restartedMain] WARN  o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+11:23:37.411 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+11:23:37.412 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+11:23:37.412 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:23:37.412 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:23:37.422 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+11:23:37.435 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:23:37.435 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 127.0.0.1:27017 to client view of cluster
+11:23:37.453 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:23:37.460 end [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demoController': Unsatisfied dependency expressed through field 'licenseService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'licenseServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'license.encryptKey' in value "${license.encryptKey}"
+11:23:37.460 end [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:23:37.465 end [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+11:23:37.474 end [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demoController': Unsatisfied dependency expressed through field 'licenseService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'licenseServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'license.encryptKey' in value "${license.encryptKey}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.spider.end.EndApplication.main(EndApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'licenseServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'license.encryptKey' in value "${license.encryptKey}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 24 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'license.encryptKey' in value "${license.encryptKey}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 35 common frames omitted
+11:24:14.074 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5001 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+11:24:19.075 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 29444 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+11:24:19.076 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+11:24:19.190 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+11:24:19.192 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1ms. Found 0 MongoDB repository interfaces.
+11:24:19.250 end [restartedMain] WARN  o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+11:24:19.261 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+11:24:19.262 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+11:24:19.262 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:24:19.262 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:24:19.268 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+11:24:19.284 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:24:19.284 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 127.0.0.1:27017 to client view of cluster
+11:24:19.305 end [cluster-ClusterId{value='5e096de33071b15da275dc96', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:8, serverValue:107}] to 127.0.0.1:27017
+11:24:19.306 end [cluster-ClusterId{value='5e096de33071b15da275dc96', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=702022}
+11:24:19.307 end [cluster-ClusterId{value='5e096de33071b15da275dc96', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+11:24:19.348 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:24:19.396 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:24:19.402 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+11:24:19.404 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+11:24:19.404 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 20.364 seconds (JVM running for 346.942)
+11:24:19.405 end [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+11:24:20.813 end [Thread-24] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+11:24:37.107 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5002 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+11:24:42.109 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 29444 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+11:24:42.111 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+11:24:42.200 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+11:24:42.202 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1ms. Found 0 MongoDB repository interfaces.
+11:24:42.236 end [restartedMain] WARN  o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+11:24:42.250 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+11:24:42.251 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+11:24:42.251 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:24:42.251 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:24:42.258 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+11:24:42.265 end [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController' defined in file [/Users/hao/projj/github.com/dream-spider/end/target/classes/com/spider/end/welcome/controller/DemoController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.spider.end.welcome.controller.DemoController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The declared package "com.spider.end.demo.controller" does not match the expected package "com.spider.end.welcome.controller"
+	The import com.spider.end.demo cannot be resolved
+	The import com.spider.end.demo cannot be resolved
+	The public type DemoController must be defined in its own file
+
+11:24:42.265 end [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:24:42.276 end [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+11:24:42.276 end [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController' defined in file [/Users/hao/projj/github.com/dream-spider/end/target/classes/com/spider/end/welcome/controller/DemoController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.spider.end.welcome.controller.DemoController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The declared package "com.spider.end.demo.controller" does not match the expected package "com.spider.end.welcome.controller"
+	The import com.spider.end.demo cannot be resolved
+	The import com.spider.end.demo cannot be resolved
+	The public type DemoController must be defined in its own file
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.spider.end.EndApplication.main(EndApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.spider.end.welcome.controller.DemoController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The declared package "com.spider.end.demo.controller" does not match the expected package "com.spider.end.welcome.controller"
+	The import com.spider.end.demo cannot be resolved
+	The import com.spider.end.demo cannot be resolved
+	The public type DemoController must be defined in its own file
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The declared package "com.spider.end.demo.controller" does not match the expected package "com.spider.end.welcome.controller"
+	The import com.spider.end.demo cannot be resolved
+	The import com.spider.end.demo cannot be resolved
+	The public type DemoController must be defined in its own file
+
+	at com.spider.end.welcome.controller.DemoController.<init>(WelcomeController.java:1)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	... 24 common frames omitted
+11:25:12.840 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+11:25:17.844 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 29444 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+11:25:17.844 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+11:25:17.944 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+11:25:17.946 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1ms. Found 0 MongoDB repository interfaces.
+11:25:17.986 end [restartedMain] WARN  o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+11:25:17.999 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+11:25:18.000 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+11:25:18.001 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:25:18.001 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:25:18.007 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+11:25:18.017 end [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController' defined in file [/Users/hao/projj/github.com/dream-spider/end/target/classes/com/spider/end/welcome/controller/DemoController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.spider.end.welcome.controller.DemoController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The declared package "com.spider.end.demo.controller" does not match the expected package "com.spider.end.welcome.controller"
+	The import com.spider.end.demo cannot be resolved
+	The import com.spider.end.demo cannot be resolved
+	The public type DemoController must be defined in its own file
+
+11:25:18.017 end [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:25:18.021 end [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+11:25:18.022 end [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController' defined in file [/Users/hao/projj/github.com/dream-spider/end/target/classes/com/spider/end/welcome/controller/DemoController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.spider.end.welcome.controller.DemoController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The declared package "com.spider.end.demo.controller" does not match the expected package "com.spider.end.welcome.controller"
+	The import com.spider.end.demo cannot be resolved
+	The import com.spider.end.demo cannot be resolved
+	The public type DemoController must be defined in its own file
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.spider.end.EndApplication.main(EndApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.spider.end.welcome.controller.DemoController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The declared package "com.spider.end.demo.controller" does not match the expected package "com.spider.end.welcome.controller"
+	The import com.spider.end.demo cannot be resolved
+	The import com.spider.end.demo cannot be resolved
+	The public type DemoController must be defined in its own file
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The declared package "com.spider.end.demo.controller" does not match the expected package "com.spider.end.welcome.controller"
+	The import com.spider.end.demo cannot be resolved
+	The import com.spider.end.demo cannot be resolved
+	The public type DemoController must be defined in its own file
+
+	at com.spider.end.welcome.controller.DemoController.<init>(WelcomeController.java:1)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	... 24 common frames omitted
+11:25:47.557 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+11:25:52.563 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 29444 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+11:25:52.563 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+11:25:52.680 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+11:25:52.685 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3ms. Found 0 MongoDB repository interfaces.
+11:25:52.729 end [restartedMain] WARN  o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+11:25:52.747 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+11:25:52.748 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+11:25:52.748 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:25:52.748 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:25:52.754 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+11:25:52.764 end [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController' defined in file [/Users/hao/projj/github.com/dream-spider/end/target/classes/com/spider/end/welcome/controller/DemoController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.spider.end.welcome.controller.DemoController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The declared package "com.spider.end.demo.controller" does not match the expected package "com.spider.end.welcome.controller"
+	The import com.spider.end.demo cannot be resolved
+	The import com.spider.end.demo cannot be resolved
+	The public type DemoController must be defined in its own file
+
+11:25:52.765 end [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:25:52.768 end [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+11:25:52.769 end [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController' defined in file [/Users/hao/projj/github.com/dream-spider/end/target/classes/com/spider/end/welcome/controller/DemoController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.spider.end.welcome.controller.DemoController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The declared package "com.spider.end.demo.controller" does not match the expected package "com.spider.end.welcome.controller"
+	The import com.spider.end.demo cannot be resolved
+	The import com.spider.end.demo cannot be resolved
+	The public type DemoController must be defined in its own file
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.spider.end.EndApplication.main(EndApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.spider.end.welcome.controller.DemoController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The declared package "com.spider.end.demo.controller" does not match the expected package "com.spider.end.welcome.controller"
+	The import com.spider.end.demo cannot be resolved
+	The import com.spider.end.demo cannot be resolved
+	The public type DemoController must be defined in its own file
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The declared package "com.spider.end.demo.controller" does not match the expected package "com.spider.end.welcome.controller"
+	The import com.spider.end.demo cannot be resolved
+	The import com.spider.end.demo cannot be resolved
+	The public type DemoController must be defined in its own file
+
+	at com.spider.end.welcome.controller.DemoController.<init>(WelcomeController.java:1)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	... 24 common frames omitted
+11:26:34.428 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5006 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+11:26:39.432 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 29444 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+11:26:39.432 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+11:26:39.585 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+11:26:39.587 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1ms. Found 0 MongoDB repository interfaces.
+11:26:39.623 end [restartedMain] WARN  o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+11:26:39.635 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+11:26:39.636 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+11:26:39.636 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:26:39.636 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:26:39.640 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+11:26:39.650 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:26:39.651 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 127.0.0.1:27017 to client view of cluster
+11:26:39.696 end [cluster-ClusterId{value='5e096e6f3071b15da275dc97', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:9, serverValue:108}] to 127.0.0.1:27017
+11:26:39.697 end [cluster-ClusterId{value='5e096e6f3071b15da275dc97', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=367932}
+11:26:39.697 end [cluster-ClusterId{value='5e096e6f3071b15da275dc97', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+11:26:39.699 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:26:39.722 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:26:39.729 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+11:26:39.731 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+11:26:39.731 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 20.356 seconds (JVM running for 487.267)
+11:26:39.732 end [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+11:26:55.243 end [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+11:27:20.697 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5002 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+11:27:25.710 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 29794 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+11:27:25.711 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+11:27:25.754 end [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:27:25.754 end [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:27:26.352 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+11:27:26.367 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 MongoDB repository interfaces.
+11:27:26.773 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+11:27:26.786 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+11:27:26.787 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:27:26.787 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:27:26.843 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+11:27:27.079 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:27:27.079 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 127.0.0.1:27017 to client view of cluster
+11:27:27.159 end [cluster-ClusterId{value='5e096e9fa45977012cd04e9d', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:109}] to 127.0.0.1:27017
+11:27:27.164 end [cluster-ClusterId{value='5e096e9fa45977012cd04e9d', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3152360}
+11:27:27.166 end [cluster-ClusterId{value='5e096e9fa45977012cd04e9d', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+11:27:27.375 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:27:27.606 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:27:27.621 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+11:27:27.651 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+11:27:27.657 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 22.366 seconds (JVM running for 22.76)
+11:27:33.766 end [http-nio-8999-exec-1] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:27:52.191 end [Thread-6] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+11:28:08.493 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5002 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+11:28:13.495 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 29794 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+11:28:13.495 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+11:28:13.611 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+11:28:13.613 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1ms. Found 0 MongoDB repository interfaces.
+11:28:13.673 end [restartedMain] WARN  o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+11:28:13.686 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+11:28:13.687 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+11:28:13.687 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:28:13.687 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:28:13.693 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+11:28:13.709 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:28:13.709 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 127.0.0.1:27017 to client view of cluster
+11:28:13.713 end [cluster-ClusterId{value='5e096ecda45977012cd04e9e', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:110}] to 127.0.0.1:27017
+11:28:13.715 end [cluster-ClusterId{value='5e096ecda45977012cd04e9e', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=716667}
+11:28:13.721 end [cluster-ClusterId{value='5e096ecda45977012cd04e9e', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+11:28:13.773 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:28:13.807 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:28:13.815 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+11:28:13.817 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+11:28:13.818 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 20.371 seconds (JVM running for 68.921)
+11:28:13.819 end [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+11:28:34.344 end [Thread-9] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+11:28:50.643 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5001 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+11:28:55.649 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 29794 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+11:28:55.650 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+11:28:55.760 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+11:28:55.762 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1ms. Found 0 MongoDB repository interfaces.
+11:28:55.809 end [restartedMain] WARN  o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+11:28:55.822 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+11:28:55.823 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+11:28:55.824 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:28:55.824 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:28:55.837 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+11:28:55.853 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:28:55.853 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 127.0.0.1:27017 to client view of cluster
+11:28:55.896 end [cluster-ClusterId{value='5e096ef7a45977012cd04e9f', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:111}] to 127.0.0.1:27017
+11:28:55.898 end [cluster-ClusterId{value='5e096ef7a45977012cd04e9f', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=478088}
+11:28:55.898 end [cluster-ClusterId{value='5e096ef7a45977012cd04e9f', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+11:28:55.898 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:28:55.929 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:28:55.935 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+11:28:55.937 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+11:28:55.937 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 20.334 seconds (JVM running for 111.04)
+11:28:55.938 end [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+11:29:23.482 end [Thread-14] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+11:29:39.791 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5002 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+11:29:44.796 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 29794 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+11:29:44.797 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+11:29:44.915 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+11:29:44.919 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3ms. Found 0 MongoDB repository interfaces.
+11:29:45.020 end [restartedMain] WARN  o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+11:29:45.032 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+11:29:45.033 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+11:29:45.033 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:29:45.034 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:29:45.039 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+11:29:45.061 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:29:45.062 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 127.0.0.1:27017 to client view of cluster
+11:29:45.065 end [cluster-ClusterId{value='5e096f29a45977012cd04ea0', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:112}] to 127.0.0.1:27017
+11:29:45.068 end [cluster-ClusterId{value='5e096f29a45977012cd04ea0', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1478659}
+11:29:45.068 end [cluster-ClusterId{value='5e096f29a45977012cd04ea0', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+11:29:45.120 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:29:45.150 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:29:45.156 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+11:29:45.158 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+11:29:45.158 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 20.41 seconds (JVM running for 160.26)
+11:29:45.159 end [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+11:30:40.938 end [Thread-19] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+14:02:50.847 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5002 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+14:02:55.857 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 32292 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+14:02:55.858 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+14:02:55.895 end [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:02:55.895 end [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14:02:56.335 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+14:02:56.355 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 MongoDB repository interfaces.
+14:02:56.674 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+14:02:56.679 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+14:02:56.680 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:02:56.680 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+14:02:56.735 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+14:02:56.915 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+14:02:56.915 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 127.0.0.1:27017 to client view of cluster
+14:02:56.996 end [cluster-ClusterId{value='5e099310cacc8c55cefdf65d', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:113}] to 127.0.0.1:27017
+14:02:57.009 end [cluster-ClusterId{value='5e099310cacc8c55cefdf65d', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7740250}
+14:02:57.011 end [cluster-ClusterId{value='5e099310cacc8c55cefdf65d', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+14:02:57.115 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:02:57.460 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:02:57.643 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+14:02:57.681 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+14:02:57.685 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 22.249 seconds (JVM running for 22.572)
+14:03:01.054 end [Thread-5] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+14:03:17.362 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+14:03:22.363 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 32292 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+14:03:22.368 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+14:03:22.476 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+14:03:22.479 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2ms. Found 0 MongoDB repository interfaces.
+14:03:22.534 end [restartedMain] WARN  o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+14:03:22.544 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+14:03:22.545 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+14:03:22.545 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:03:22.546 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+14:03:22.552 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+14:03:22.560 end [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tagController': Unsatisfied dependency expressed through field 'tagService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.spider.end.tag.service.TagService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+14:03:22.561 end [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:03:22.566 end [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+14:03:22.629 end [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field tagService in com.spider.end.tag.controller.TagController required a bean of type 'com.spider.end.tag.service.TagService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.spider.end.tag.service.TagService' in your configuration.
+
+14:03:53.609 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5002 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+14:03:58.612 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 32292 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+14:03:58.623 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+14:03:58.733 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+14:03:58.736 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2ms. Found 0 MongoDB repository interfaces.
+14:03:58.784 end [restartedMain] WARN  o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+14:03:58.798 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+14:03:58.799 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+14:03:58.799 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:03:58.799 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+14:03:58.806 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+14:03:58.820 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+14:03:58.820 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 127.0.0.1:27017 to client view of cluster
+14:03:58.840 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:03:58.863 end [cluster-ClusterId{value='5e09934ecacc8c55cefdf65e', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:114}] to 127.0.0.1:27017
+14:03:58.865 end [cluster-ClusterId{value='5e09934ecacc8c55cefdf65e', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=584897}
+14:03:58.866 end [cluster-ClusterId{value='5e09934ecacc8c55cefdf65e', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+14:03:58.893 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:03:58.933 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+14:03:58.935 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+14:03:58.936 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 20.365 seconds (JVM running for 83.823)
+14:03:58.937 end [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+14:47:48.991 end [Thread-9] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+14:48:05.426 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5003 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+14:48:31.291 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5003 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+14:48:36.297 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 32526 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+14:48:36.297 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+14:48:36.339 end [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:48:36.340 end [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14:48:36.761 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+14:48:36.781 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 MongoDB repository interfaces.
+14:48:37.090 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+14:48:37.095 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+14:48:37.096 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:48:37.096 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+14:48:37.139 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+14:48:37.352 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+14:48:37.352 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 127.0.0.1:27017 to client view of cluster
+14:48:37.433 end [cluster-ClusterId{value='5e099dc5ef04f4018e07df73', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:115}] to 127.0.0.1:27017
+14:48:37.437 end [cluster-ClusterId{value='5e099dc5ef04f4018e07df73', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2256243}
+14:48:37.439 end [cluster-ClusterId{value='5e099dc5ef04f4018e07df73', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+14:48:37.507 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:48:37.761 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:48:37.859 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+14:48:37.880 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+14:48:37.883 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 22.033 seconds (JVM running for 22.508)
+14:48:59.700 end [http-nio-8999-exec-1] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:49:05.022 end [http-nio-8999-exec-2] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2}] to 127.0.0.1:27017 because there was a socket exception raised by this connection.
+14:49:05.028 end [http-nio-8999-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [/end] threw exception [Request processing failed; nested exception is org.springframework.data.mongodb.UncategorizedMongoDbException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='root', source='shynode-eggjs', password=<hidden>, mechanismProperties=<hidden>}; nested exception is com.mongodb.MongoSecurityException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='root', source='shynode-eggjs', password=<hidden>, mechanismProperties=<hidden>}] with root cause
+com.mongodb.MongoCommandException: Command failed with error 18 (AuthenticationFailed): 'Authentication failed.' on server 127.0.0.1:27017. The full response is {"ok": 0.0, "errmsg": "Authentication failed.", "code": 18, "codeName": "AuthenticationFailed"}
+	at com.mongodb.internal.connection.ProtocolHelper.getCommandFailureException(ProtocolHelper.java:175)
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:303)
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:259)
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:83)
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:33)
+	at com.mongodb.internal.connection.SaslAuthenticator.sendSaslStart(SaslAuthenticator.java:130)
+	at com.mongodb.internal.connection.SaslAuthenticator.access$100(SaslAuthenticator.java:40)
+	at com.mongodb.internal.connection.SaslAuthenticator$1.run(SaslAuthenticator.java:54)
+	at com.mongodb.internal.connection.SaslAuthenticator$1.run(SaslAuthenticator.java:47)
+	at com.mongodb.internal.connection.SaslAuthenticator.doAsSubject(SaslAuthenticator.java:179)
+	at com.mongodb.internal.connection.SaslAuthenticator.authenticate(SaslAuthenticator.java:47)
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.authenticateAll(InternalStreamConnectionInitializer.java:156)
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:63)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:129)
+	at com.mongodb.internal.connection.UsageTrackingInternalConnection.open(UsageTrackingInternalConnection.java:50)
+	at com.mongodb.internal.connection.DefaultConnectionPool$PooledConnection.open(DefaultConnectionPool.java:398)
+	at com.mongodb.internal.connection.DefaultConnectionPool.get(DefaultConnectionPool.java:115)
+	at com.mongodb.internal.connection.DefaultConnectionPool.get(DefaultConnectionPool.java:101)
+	at com.mongodb.internal.connection.DefaultServer.getConnection(DefaultServer.java:92)
+	at com.mongodb.binding.ClusterBinding$ClusterBindingConnectionSource.getConnection(ClusterBinding.java:126)
+	at com.mongodb.operation.FindOperation$1.call(FindOperation.java:728)
+	at com.mongodb.operation.FindOperation$1.call(FindOperation.java:725)
+	at com.mongodb.operation.OperationHelper.withReadConnectionSource(OperationHelper.java:463)
+	at com.mongodb.operation.FindOperation.execute(FindOperation.java:725)
+	at com.mongodb.operation.FindOperation.execute(FindOperation.java:89)
+	at com.mongodb.client.internal.MongoClientDelegate$DelegateOperationExecutor.execute(MongoClientDelegate.java:189)
+	at com.mongodb.client.internal.MongoIterableImpl.execute(MongoIterableImpl.java:143)
+	at com.mongodb.client.internal.MongoIterableImpl.iterator(MongoIterableImpl.java:92)
+	at org.springframework.data.mongodb.core.MongoTemplate.executeFindMultiInternal(MongoTemplate.java:2793)
+	at org.springframework.data.mongodb.core.MongoTemplate.findAll(MongoTemplate.java:1809)
+	at org.springframework.data.mongodb.core.MongoTemplate.findAll(MongoTemplate.java:1804)
+	at com.spider.end.tag.service.TagServiceImpl.test(TagServiceImpl.java:19)
+	at com.spider.end.tag.controller.TagController.hello(TagController.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+14:50:21.013 end [Thread-5] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+14:50:42.433 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+14:50:47.442 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 32596 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+14:50:47.443 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+14:50:47.478 end [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:50:47.478 end [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14:50:47.922 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+14:50:47.942 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 MongoDB repository interfaces.
+14:50:48.244 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+14:50:48.250 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+14:50:48.250 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:50:48.250 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+14:50:48.300 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+14:50:48.495 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+14:50:48.495 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 127.0.0.1:27017 to client view of cluster
+14:50:48.577 end [cluster-ClusterId{value='5e099e48852eb31fbb2fb248', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:122}] to 127.0.0.1:27017
+14:50:48.582 end [cluster-ClusterId{value='5e099e48852eb31fbb2fb248', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2762492}
+14:50:48.583 end [cluster-ClusterId{value='5e099e48852eb31fbb2fb248', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+14:50:48.639 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:50:48.886 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:50:48.994 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+14:50:49.014 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+14:50:49.018 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 22.028 seconds (JVM running for 22.403)
+14:50:53.416 end [http-nio-8999-exec-1] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:50:53.474 end [http-nio-8999-exec-1] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:123}] to 127.0.0.1:27017
+14:51:05.513 end [Thread-5] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+14:51:05.515 end [Thread-5] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:123}] to 127.0.0.1:27017 because the pool has been closed.
+14:51:21.831 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5003 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+14:51:26.839 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 32596 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+14:51:26.840 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+14:51:26.948 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+14:51:26.952 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3ms. Found 0 MongoDB repository interfaces.
+14:51:27.003 end [restartedMain] WARN  o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+14:51:27.012 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+14:51:27.012 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+14:51:27.012 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:51:27.013 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+14:51:27.019 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+14:51:27.030 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+14:51:27.030 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 127.0.0.1:27017 to client view of cluster
+14:51:27.040 end [cluster-ClusterId{value='5e099e6f852eb31fbb2fb249', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:124}] to 127.0.0.1:27017
+14:51:27.041 end [cluster-ClusterId{value='5e099e6f852eb31fbb2fb249', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=508680}
+14:51:27.041 end [cluster-ClusterId{value='5e099e6f852eb31fbb2fb249', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+14:51:27.049 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:51:27.111 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:51:27.149 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+14:51:27.152 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+14:51:27.152 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 20.363 seconds (JVM running for 60.537)
+14:51:27.154 end [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+14:51:34.385 end [http-nio-8999-exec-1] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:51:34.391 end [http-nio-8999-exec-1] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:125}] to 127.0.0.1:27017
+14:51:38.760 end [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+14:51:38.761 end [SpringContextShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:4, serverValue:125}] to 127.0.0.1:27017 because the pool has been closed.
+14:52:01.745 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+14:52:06.750 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 32657 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+14:52:06.750 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+14:52:06.795 end [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:52:06.796 end [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14:52:07.358 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+14:52:07.387 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 MongoDB repository interfaces.
+14:52:07.770 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+14:52:07.775 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+14:52:07.776 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:52:07.777 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+14:52:07.817 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+14:52:08.015 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+14:52:08.015 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 127.0.0.1:27017 to client view of cluster
+14:52:08.093 end [cluster-ClusterId{value='5e099e98df79784ca375477d', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:126}] to 127.0.0.1:27017
+14:52:08.099 end [cluster-ClusterId{value='5e099e98df79784ca375477d', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3460425}
+14:52:08.100 end [cluster-ClusterId{value='5e099e98df79784ca375477d', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+14:52:08.178 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:52:08.461 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:52:08.563 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+14:52:08.606 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+14:52:08.609 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 22.222 seconds (JVM running for 22.543)
+14:52:25.689 end [http-nio-8999-exec-1] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:52:25.741 end [http-nio-8999-exec-1] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:127}] to 127.0.0.1:27017
+14:52:58.325 end [Thread-5] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+14:52:58.330 end [Thread-5] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:127}] to 127.0.0.1:27017 because the pool has been closed.
+14:53:29.809 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5001 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+14:53:34.821 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 32716 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+14:53:34.822 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+14:53:34.886 end [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:53:34.886 end [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14:53:35.607 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+14:53:35.630 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 MongoDB repository interfaces.
+14:53:36.089 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+14:53:36.098 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+14:53:36.099 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:53:36.099 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+14:53:36.163 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+14:53:36.414 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+14:53:36.414 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 127.0.0.1:27017 to client view of cluster
+14:53:36.497 end [cluster-ClusterId{value='5e099ef0809c10040da502a0', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:128}] to 127.0.0.1:27017
+14:53:36.505 end [cluster-ClusterId{value='5e099ef0809c10040da502a0', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3623716}
+14:53:36.506 end [cluster-ClusterId{value='5e099ef0809c10040da502a0', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+14:53:36.579 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:53:37.028 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:53:37.311 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+14:53:37.348 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+14:53:37.353 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 22.937 seconds (JVM running for 23.271)
+14:53:41.593 end [http-nio-8999-exec-1] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:53:41.671 end [http-nio-8999-exec-1] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:129}] to 127.0.0.1:27017
+14:53:51.800 end [Thread-5] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+14:53:51.803 end [Thread-5] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:129}] to 127.0.0.1:27017 because the pool has been closed.
+14:54:08.147 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+14:54:13.150 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 32716 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+14:54:13.150 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+14:54:13.269 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+14:54:13.273 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3ms. Found 0 MongoDB repository interfaces.
+14:54:13.330 end [restartedMain] WARN  o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+14:54:13.343 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+14:54:13.344 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+14:54:13.344 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:54:13.344 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+14:54:13.350 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+14:54:13.364 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+14:54:13.364 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 127.0.0.1:27017 to client view of cluster
+14:54:13.367 end [cluster-ClusterId{value='5e099f15809c10040da502a1', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:130}] to 127.0.0.1:27017
+14:54:13.368 end [cluster-ClusterId{value='5e099f15809c10040da502a1', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=518410}
+14:54:13.369 end [cluster-ClusterId{value='5e099f15809c10040da502a1', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+14:54:13.382 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:54:13.459 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:54:13.499 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+14:54:13.501 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+14:54:13.502 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 20.4 seconds (JVM running for 59.42)
+14:54:13.505 end [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+14:54:14.837 end [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+14:54:36.123 end [restartedMain] WARN  o.s.boot.StartupInfoLogger - InetAddress.getLocalHost().getHostName() took 5006 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+14:54:41.133 end [restartedMain] INFO  com.spider.end.EndApplication - Starting EndApplication on Haos-MacBook-Pro.local with PID 32792 (/Users/hao/projj/github.com/dream-spider/end/target/classes started by hao in /Users/hao/projj/github.com/dream-spider/end)
+14:54:41.133 end [restartedMain] INFO  com.spider.end.EndApplication - The following profiles are active: dev
+14:54:41.172 end [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:54:41.172 end [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14:54:41.583 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+14:54:41.601 end [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 MongoDB repository interfaces.
+14:54:41.913 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+14:54:41.919 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+14:54:41.919 end [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:54:41.920 end [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+14:54:41.963 end [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring embedded WebApplicationContext
+14:54:42.140 end [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+14:54:42.140 end [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 127.0.0.1:27017 to client view of cluster
+14:54:42.183 end [cluster-ClusterId{value='5e099f322130014b773cb01e', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:131}] to 127.0.0.1:27017
+14:54:42.187 end [cluster-ClusterId{value='5e099f322130014b773cb01e', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2281222}
+14:54:42.189 end [cluster-ClusterId{value='5e099f322130014b773cb01e', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+14:54:42.280 end [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:54:42.523 end [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:54:42.623 end [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+14:54:42.642 end [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path '/end'
+14:54:42.645 end [restartedMain] INFO  com.spider.end.EndApplication - Started EndApplication in 21.894 seconds (JVM running for 22.208)
+14:54:48.718 end [http-nio-8999-exec-1] INFO  o.a.c.c.C.[.[localhost].[/end] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:54:48.763 end [http-nio-8999-exec-1] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:132}] to 127.0.0.1:27017
+14:55:31.095 end [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+14:55:31.098 end [SpringContextShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:132}] to 127.0.0.1:27017 because the pool has been closed.

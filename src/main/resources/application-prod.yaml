@@ -10,6 +10,3 @@ spring:
       field-naming-strategy:  org.springframework.data.mapping.model.SnakeCaseFieldNamingStrategy
       username: xxx
       password: xxxx
-license:
-  encryptKey: testhaha
-  initGenCount: 10

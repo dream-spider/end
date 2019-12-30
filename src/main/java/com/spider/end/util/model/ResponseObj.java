@@ -1,4 +1,4 @@
-package com.spider.end.demo.pojo;
+package com.spider.end.util.model;
 
 import lombok.Data;
 
