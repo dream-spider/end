@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      host: 111.229.235.55
+      port: 27017
+      database: fact
+      # 自动将字段转换为驼峰标识存储到mongo中.
+      field-naming-strategy:  org.springframework.data.mapping.model.SnakeCaseFieldNamingStrategy
+      username: factAdmin
+      password: factAdmin2020
+license:
+  encryptKey: testhaha
+  initGenCount: 10

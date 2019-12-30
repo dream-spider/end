@@ -1,0 +1,16 @@
+server:
+  port: 8999
+  servlet:
+    context-path: /end
+spring:
+  profiles:
+    active: #profileActive#
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: html5
+    encoding: UTF-8
+    cache: false
+    enabled: true
+logging:
+  config: classpath:logback-spirng.xml
