@@ -1,9 +1,11 @@
-package com.spider.end.common.mongo.model;
+package com.spider.end.common.mongo.model.article;
 
 import java.util.Date;
 import java.util.List;
 
-import com.spider.end.common.mongo.model.article.Article;
+import com.spider.end.common.enums.ArticleStates;
+import com.spider.end.common.mongo.model.Extend;
+import com.spider.end.common.mongo.model.Tag;
 
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
@@ -17,29 +19,27 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Document(collection = "Tag")
+@Document(collection = "Article")
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Tag {
+public class Article {
+
   @Id
-  private String id;
+  String id;
 
   @Field
-  private String name;
+  String title;
 
   @Field
-  private String description;
+  String content;
 
   @Field
-  private int state;
+  String thumbnail;
 
   @Field
-  private String createdBy;
-
-  @Field
-  private String updatedBy;
+  ArticleStates state;
 
   @CreatedDate
   private Date createdAt;
@@ -48,10 +48,20 @@ public class Tag {
   private Date updatedAt;
 
   @Field
+  private String createdBy;
+
+  @Field
+  private String updatedBy;
+
+  @Field
+  private Meta meta;
+
+  @Field
+  private String[] keywords;
+
+  @Field
   private List<Extend> extendList;
 
-  @DBRef()
-  private List<Article> relatedArticles;
-
-  
+  @DBRef
+  private List<Tag> relatedTags;
 }
